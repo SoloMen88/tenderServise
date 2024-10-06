@@ -23,7 +23,7 @@ class Organization(models.Model):
 
     class Meta:
         db_table = 'organization'
-        managed = False
+        # managed = False
 
     def __str__(self):
         return self.name
@@ -44,7 +44,7 @@ class Employee(models.Model):
 
     class Meta:
         db_table = 'employee'
-        managed = False
+        # managed = False
 
     def __str__(self):
         return self.username
@@ -62,7 +62,7 @@ class OrganizationResponsible(models.Model):
 
     class Meta:
         db_table = 'organization_responsible'
-        managed = False
+        # managed = False
 
 
 class Tender(models.Model):
