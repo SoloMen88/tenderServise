@@ -13,12 +13,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['.localhost',
                  '127.0.0.1',
-                 'cnrprod1725719794-team-79099-32427.avito2024.codenrock.com']
+                 'you_url_host']
 
 APPEND_SLASH = False
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://cnrprod1725719794-team-79099-32427.avito2024.codenrock.com',
+    'https://you_url_host',
     'http://localhost']
 
 INSTALLED_APPS = [
